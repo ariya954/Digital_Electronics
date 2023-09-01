@@ -1,0 +1,8 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
+.TITLE 'first line of the netlist must be blank.'
+ maxpower         v_in_low         v_in_high        v_out_low         
+ v_out_high       tphl             tplh             tpd               
+ t_rise           t_fall           temper           alter#            
+ -8.754e-09          1.0000           1.0000         2.491e-05        
+  2.491e-05          failed           failed           failed         
+    failed           failed          27.0000        1                 

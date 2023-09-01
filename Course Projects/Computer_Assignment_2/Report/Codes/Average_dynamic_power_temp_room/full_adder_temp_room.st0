@@ -1,0 +1,54 @@
+***** HSPICE -- D-2010.03-SP1 32-BIT (May 26 2010) winnt ******
+ Input File: d:\digital electronic\projects\ca_2\average_dynamic_power_temp_room
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   HP                   HOSTNAME: ProBook
+ lic: HOSTID: "00090faa0001 56db30007c95 16db30007c95 a4db30007c95 a45d36cb5ab9
+ lic: Using FLEXlm license file:
+ lic: 27000@elena
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9
+ lic: NODE LOCKED license on hostid "00090faa0001 56db30007c95 16db30007c95 a4db
+ lic:
+ init: begin read circuit files,  cpu clock=  1.14E-01
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+ init: end read circuit files,  cpu clock=  1.53E-01 memory=    290 kb
+ init: begin check errors,  cpu clock=  1.53E-01
+ init: end check errors,  cpu clock=  1.69E-01 memory=    451 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.69E-01
+       establish matrix -- done,  cpu clock=  1.76E-01 memory=    469 kb
+       re-order matrix -- done,  cpu clock=  1.80E-01 memory=    478 kb
+ init: end setup matrix,  cpu clock=  1.97E-01 memory=    513 kb
+ dcop: begin dcop,  cpu clock=  2.00E-01
+ dcop: end dcop,  cpu clock=  2.07E-01 memory=    513 kb  tot_iter=      21
+ output: d:\digital electronic\projects\ca_2\average_dynamic_power_temp_room\ful
+ sweep: tran tran0    begin, stop_t=  1.70E-07 #sweeps=**** cpu clock=  2.14E-01
+ tran: time= 1.7429E-08 tot_iter=     434 conv_iter=     154 cpu clock= 2.45E-01
+ tran: time= 3.4203E-08 tot_iter=     807 conv_iter=     279 cpu clock= 2.72E-01
+ tran: time= 5.1289E-08 tot_iter=    1368 conv_iter=     472 cpu clock= 3.11E-01
+ tran: time= 6.8009E-08 tot_iter=    1984 conv_iter=     672 cpu clock= 3.54E-01
+ tran: time= 8.6660E-08 tot_iter=    2333 conv_iter=     792 cpu clock= 3.78E-01
+ tran: time= 1.0249E-07 tot_iter=    2782 conv_iter=     944 cpu clock= 4.10E-01
+ tran: time= 1.1955E-07 tot_iter=    3411 conv_iter=    1151 cpu clock= 4.54E-01
+ tran: time= 1.3604E-07 tot_iter=    3895 conv_iter=    1319 cpu clock= 4.87E-01
+ tran: time= 1.5308E-07 tot_iter=    4545 conv_iter=    1530 cpu clock= 5.30E-01
+ tran: time= 1.7000E-07 tot_iter=    4659 conv_iter=    1570 cpu clock= 5.40E-01
+ sweep: tran tran0    end,  cpu clock=  5.43E-01 memory=    515 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

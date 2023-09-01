@@ -1,4 +1,0 @@
-$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP1 32-BIT'
-.TITLE 'first line of the netlist must be blank.'
- t_rise           t_fall           temper           alter#            
-  8.217e-10        5.988e-10         27.0000        1                 

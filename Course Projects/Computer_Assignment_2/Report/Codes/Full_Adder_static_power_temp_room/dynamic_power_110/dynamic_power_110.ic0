@@ -1,0 +1,29 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "13:18:57 12/02/2014 "
+* "netlist" "d:\digital electronic\projects\ca_2\full_adder_static_power_temp_room\dynamic_power_110\dynamic_power_110.sp "
+* "runtitle" "first line of the netlist must be blank."
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   1.8000        
++ b =   1.8000        
++ cin =   0.            
++ cout =   1.8000        
++ cout_bar =  24.0967n       
++ drain_n_11 =   4.8193n       
++ drain_n_12 =   9.6387n       
++ drain_n_13 =   1.4326        
++ drain_n_14 =   1.4490        
++ drain_p_11 = 446.7900m       
++ drain_p_12 =   1.4578        
++ drain_p_13 =   1.8000        
++ drain_p_14 =   1.8000        
++ sum =  11.1881n       
++ sum_bar =   1.8000        
++ vdd =   1.8000        
+***   END: Saved Operating Point ***                     

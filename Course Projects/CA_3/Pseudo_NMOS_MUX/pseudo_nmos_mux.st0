@@ -1,0 +1,54 @@
+***** HSPICE -- D-2010.03-SP1 32-BIT (May 26 2010) winnt ******
+ Input File: d:\digital electronic\projects\ca_3\pseudo_nmos_mux\pseudo_nmos_mux
+ lic:
+ lic: FLEXlm: v8.5b
+ lic: USER:   HP                   HOSTNAME: ProBook
+ lic: HOSTID: "00090faa0001 56db30007c95 16db30007c95 a4db30007c95 a45d36cb5ab9
+ lic: Using FLEXlm license file:
+ lic: 27000@elena
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2020/2007.9
+ lic: NODE LOCKED license on hostid "00090faa0001 56db30007c95 16db30007c95 a4db
+ lic:
+ init: begin read circuit files,  cpu clock=  8.20E-02
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP1\PARTS\AD\
+       option post     =     2.00
+       option runlvl
+ init: end read circuit files,  cpu clock=  1.27E-01 memory=    158 kb
+ init: begin check errors,  cpu clock=  1.27E-01
+ init: end check errors,  cpu clock=  1.39E-01 memory=    291 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.39E-01
+       establish matrix -- done,  cpu clock=  1.49E-01 memory=    309 kb
+       re-order matrix -- done,  cpu clock=  1.53E-01 memory=    311 kb
+ init: end setup matrix,  cpu clock=  1.61E-01 memory=    332 kb
+ dcop: begin dcop,  cpu clock=  1.64E-01
+ dcop: end dcop,  cpu clock=  1.69E-01 memory=    332 kb  tot_iter=       7
+ output: d:\digital electronic\projects\ca_3\pseudo_nmos_mux\pseudo_nmos_mux.mt0
+ sweep: tran tran0    begin, stop_t=  1.70E-07 #sweeps=**** cpu clock=  1.81E-01
+ tran: time= 1.7195E-08 tot_iter=     274 conv_iter=     101 cpu clock= 2.05E-01
+ tran: time= 3.4685E-08 tot_iter=     505 conv_iter=     184 cpu clock= 2.27E-01
+ tran: time= 5.1188E-08 tot_iter=     833 conv_iter=     304 cpu clock= 2.58E-01
+ tran: time= 6.8022E-08 tot_iter=    1210 conv_iter=     441 cpu clock= 2.91E-01
+ tran: time= 8.7490E-08 tot_iter=    1406 conv_iter=     513 cpu clock= 3.07E-01
+ tran: time= 1.0219E-07 tot_iter=    1686 conv_iter=     613 cpu clock= 3.34E-01
+ tran: time= 1.1999E-07 tot_iter=    2058 conv_iter=     748 cpu clock= 3.62E-01
+ tran: time= 1.3691E-07 tot_iter=    2471 conv_iter=     891 cpu clock= 3.91E-01
+ tran: time= 1.5318E-07 tot_iter=    2862 conv_iter=    1030 cpu clock= 4.16E-01
+ tran: time= 1.7000E-07 tot_iter=    2933 conv_iter=    1058 cpu clock= 4.22E-01
+ sweep: tran tran0    end,  cpu clock=  4.26E-01 memory=    335 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

@@ -1,0 +1,29 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "10:06:46 12/02/2014 "
+* "netlist" "d:\digital electronic\projects\ca_2\full_adder_simulation_temp_100\full_adder_temp_100.sp "
+* "runtitle" "first line of the netlist must be blank."
+* time =    0.            
+* temperature =  100.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ b =   0.            
++ cin =   0.            
++ cout = 316.6872n       
++ cout_bar =   1.8000        
++ drain_n_11 =  39.6859m       
++ drain_n_12 =  39.6859m       
++ drain_n_13 =   1.4470        
++ drain_n_14 = 864.6521n       
++ drain_p_11 =   1.8000        
++ drain_p_12 =   1.8000        
++ drain_p_13 =   1.8000        
++ drain_p_14 =   1.8000        
++ sum = 316.7144n       
++ sum_bar =   1.8000        
++ vdd =   1.8000        
+***   END: Saved Operating Point ***                     

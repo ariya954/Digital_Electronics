@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP1 32-BIT"
+* "format" "HSP"
+* "rundate" "13:45:50 10/31/2014 "
+* "netlist" "d:\digital electronic\projects\ca_1\question_1_parts_a_b_beta_2\q1_parts_a_b_beta_2.sp "
+* "runtitle" "first line of the netlist must be blank."
+* time =    0.            
+* temperature =   27.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in =   1.0000        
++ out =  24.9114u       
++ vdd =   1.0000        
+***   END: Saved Operating Point ***                     
